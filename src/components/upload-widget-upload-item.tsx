@@ -8,7 +8,7 @@ export function UploadWidgetUploadItem() {
         <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.8 }}
             className="p-3 rounded-lg flex flex-col gap-3 shadow-shape-content bg-white/2 relative overflow-hidden"
         >
             <div className="flex flex-col gap-1">
