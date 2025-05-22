@@ -8,7 +8,9 @@ export function UploadWidgetDropzone() {
             "image/jpeg": [],
             "image/png": [],
         },
-        
+        onDrop(acceptedFiles, fileRejections, event) {
+            
+        },
     })
     return(
         <div className="px-3 flex flex-col gap-3" >
